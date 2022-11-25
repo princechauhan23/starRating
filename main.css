@@ -1,6 +1,6 @@
 #sign{
     height: 30px;
-    width: 10%;
+    width: 80px;
     margin: 0 auto;
     background-color: #3357e6;
     border: 1px solid #ccc;
@@ -8,8 +8,7 @@
     margin-left: 85%;
     margin-top: 15px;
     color: #fff;
-
-
+    visibility: hidden;
 }
 #input-form {
     width: 95%;
@@ -49,4 +48,47 @@
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+}
+
+.stars-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    /* width: 0; */
+}
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ccc;
+}
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #f8ce0b;
+}
+
+#sony{
+    width: 0
+}
+
+#samsung{
+    width: 0
+}
+#vizio{
+    width: 0
+}
+#panasonic{
+    width: 0
+}
+#phillips{
+    width: 0
 }
