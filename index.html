@@ -12,18 +12,20 @@
 </head>
 <body>
     <button id="sign">Sign In</button>
-    <form id="input-form" action="#">
-        <select id="select-Item">
-            <option>Select Product</option>
-            <option value="sony">Sony 4K TV</option>
-            <option value="samsung">Samsung 4K TV</option>
-            <option value="vizio">Vizio 4K TV</option>
-            <option value="panasonic">Panasonic 4k TV</option>
-            <option value="phillips">Phillips 4K TV</option>
-        </select>
-        <input id="rating-input" type="number" name="rating" step="0.1" min="1" max="5">
-        <input id="submit-btn" type="submit">
-    </form>
+    <div class="container mt-5">
+        <form class="form-group" id="input-form" action="#">
+            <select id="select-Item" class="form-control custom-select">
+                <option>Select Product</option>
+                <option value="sony">Sony 4K TV</option>
+                <option value="samsung">Samsung 4K TV</option>
+                <option value="vizio">Vizio 4K TV</option>
+                <option value="panasonic">Panasonic 4k TV</option>
+                <option value="phillips">Phillips 4K TV</option>
+            </select>
+            <input id="rating-input" type="number" name="rating" step="0.1" min="1" max="5" placeholder="Rate 1-5">
+            <input id="submit-btn" type="submit">
+        </form>
+    </div>
     <div class="container">
         <table class="table table-striped">
             <thead>
