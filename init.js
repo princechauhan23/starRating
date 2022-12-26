@@ -7,7 +7,7 @@ const firebaseConfig = {
         apiKey: Env.apiKey,
         authDomain: Env.authDomain,
         projectId: Env.projectId,
-        storageBucket: Env.storageBucket,
+        storageBucket: "productrating-e88e3.appspot.com",
         messagingSenderId: Env.messagingSenderId,
         appId: Env.appId
 };
