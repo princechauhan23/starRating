@@ -1,9 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("./bkg.svg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 #sign {
   height: 30px;
   width: 80px;
   margin: 0 auto;
   background-color: #3357e6;
-  border: 1px solid #ccc;
+  border: 0;
   border-radius: 5px;
   margin-left: 85%;
   margin-top: 15px;
@@ -11,11 +20,7 @@
   visibility: hidden;
 }
 /* #form-container{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+
 } */
 #input-form {
   width: 100%;
@@ -25,6 +30,11 @@
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 8px #ccc;
+}
+.container {
+  background-color: #fff;
+  padding-top: 10px;
+  border-radius: 4px;
 }
 
 #select-Item {
